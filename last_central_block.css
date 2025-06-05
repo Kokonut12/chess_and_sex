@@ -1,0 +1,403 @@
+.last-central-block {
+   
+    display: flex;
+    
+    
+    height: 590px;
+    justify-content: space-between;
+}
+
+.left-block_main {
+    width: 49.2%;
+}
+
+/* робота з лівим блоком */
+
+.left-block {
+
+    max-height: 485px;
+    background-color: #504e4e;
+    color: #b1acac;
+    font-size:small;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2px;
+    box-sizing: border-box; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-gutter: stable;
+}
+
+
+
+
+/* шрифти для time */
+
+time {
+    font-weight: bold;
+    font-size: large;
+    color: #c0962d;
+}
+
+/* відступи в параграфах */
+
+.left-block p {
+    margin-left: 52px;
+    margin-top: -8px;
+}
+
+/* властивості для скроллу */
+
+.left-block:hover,
+.scroll-content:hover,
+.pid_scroll_nesylka:hover {
+    overflow-y: auto; /* Відображаємо вертикальний скролл при наведенні курсора */
+}
+
+/* Приховуємо стрілочки */
+.left-block::-webkit-scrollbar-button,
+.scroll-content::-webkit-scrollbar-button,
+.pid_scroll_nesylka::-webkit-scrollbar-button {
+    display: none;
+}
+
+.left-block::-webkit-scrollbar,
+.scroll-content::-webkit-scrollbar, 
+.pid_scroll_nesylka::-webkit-scrollbar {
+    width: 8px; /* Ширина скроллбару */
+}
+
+
+
+.left-block::-webkit-scrollbar-thumb,
+.scroll-content::-webkit-scrollbar-thumb,
+.pid_scroll_nesylka::-webkit-scrollbar-thumb {
+     /* Колір "бігуна" (рухомої частини) */
+    background-color: #696969; 
+}
+
+.left-block::-webkit-scrollbar-thumb:hover,
+.scroll-content::-webkit-scrollbar-thumb:hover,
+.pid_scroll_nesylka::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Темніший колір бігуна при наведенні */
+}
+
+.left-block::-webkit-scrollbar-track,
+.scroll-content::-webkit-scrollbar-track,
+.pid_scroll_nesylka::-webkit-scrollbar-track {
+    background-color: #504e4e; /* Колір фону для скроллбару */
+}
+
+/* поправки на розміри картинок в першому блоці */
+
+
+.book_img {
+    margin-right: 4px;
+    width: 43px;
+}
+
+.hunner_img {
+    width: 55px;
+    margin-left: -8px;
+}
+
+.celebration_img {
+    margin-left: -5px;
+    margin-right: 4px;
+}
+
+
+/* робота з правим блоком */
+.right-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 656px;
+    background-color: rgb(37, 33, 33);
+    color: #b1acac;
+    
+}
+
+.po-100 {
+    width:100%;
+    height: 49%;
+    background-color: #504e4e;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+/* властивості картинок до турнірної дошки */
+
+.kubok_img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.tournament_img {
+    width: 22px;
+    margin-left: -5px;
+    margin-right: 3px;
+}
+
+.lider_img {
+    width: 20px;
+    margin-right: 5px;
+}
+/* властивості для скоролів */
+
+.scroll-content {
+    height: 88%;
+}
+
+
+.scroll-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.po-50 {
+    width: calc(50% - 10px);
+    height: 48%;
+    background-color: #504e4e;
+    border-radius: 5px;
+    
+}
+
+
+/* перша ссилка у формі шапки */
+
+.cpase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sylka {
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    color: #b1acac;
+}
+
+.sylka_right {
+    display: block;
+    padding: 0.5em;
+    color: #b1acac;
+}
+
+.cpase_nesylka {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    color: #b1acac;
+}
+
+.cpase_nesylka a {
+    color: #b1acac;
+}
+
+.pid_scroll_nesylka {
+    overflow-y: auto;
+    height: 88%;
+}
+
+/* оформлення футера */
+
+.footer {
+    background-color: rgb(37, 33, 33); /* Фон footer */
+    color: #ffffff; /* Колір тексту */
+    padding: 12px 0; 
+    margin-top: 25px; 
+    text-align: center; /* Центрування тексту */
+    width: 656px;
+}
+
+/* .footer-row {
+    margin-bottom: 10px; 
+} */
+
+.footer-row a {
+    color: #d1cbcb; /* Колір посилань */
+    text-decoration: none; /* Відсутність підкреслення */
+    margin: 0 4px; /* Відступи між посиланнями */
+    font-size: 14px; /* Розмір тексту */
+}
+
+.footer-row a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+.social-links a {
+    font-size: 12px; /* Розмір тексту для соціальних посилань */
+}
+
+.social-links {
+    margin-top: 5px;
+}
+
+.fot_top {
+    margin-top: 0px;
+}
+
+
+/* оформлення таблиць */
+
+.my-table {
+    width: 100%; /* Ширина таблиці */
+    border-collapse: collapse; /* Забирає проміжок між рамками */
+
+    align-items: center;
+    /* text-align: left;  */
+    font-size: smaller;
+    
+}
+
+.my-table td {
+    padding: 6px 15px; /* Внутрішній відступ у комірках */
+    
+    
+}
+
+.my-table tr:nth-child(even) {
+    background-color: #504e4e; /* Змінний фон для парних рядків */
+}
+
+.my-table tr:hover {
+    background-color: #615e5e; /* Фон при наведенні на рядок */
+}
+
+.my-table tr {
+    background-color: #353434; /* Фон при наведенні на рядок */
+}
+
+
+td {
+    vertical-align: middle; /* Вирівнювання по вертикалі */
+}
+
+img {
+    vertical-align: middle; /* Вирівнювання картинки по вертикалі */
+     /* Розмір картинки, за потреби */
+}
+
+.text_name {
+    vertical-align: middle; /* Вирівнювання тексту по вертикалі */
+}
+
+
+.first_td {
+    width: 40%;
+}
+
+.second_td {
+    width: 25%;
+}
+
+.text_right_board {
+    text-align: right;
+}
+
+.third_td {
+    width: 15%;
+}
+
+.fourty_td {
+    width: 13%;
+}
+
+/* іконки зі стрілочками */
+
+.strilka_img{
+    width: 15px;
+    margin-top: -3px;
+    margin-left: -5px;
+}
+
+.man_or_woman_icon {
+    width: 20px;
+    padding-right: 6px;
+    margin-left: -5px;
+    
+}
+
+.classic_control {
+    width: 15px;
+}
+
+/* іконки кількість учасників */
+
+.coming_people {
+    width: 15px;
+    vertical-align: middle;
+}
+
+span {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.bullet_img {
+    margin-left: -5px;
+    width: 20px;
+}
+
+.rapid_2_control_img {
+    margin-left: -5px;
+    width: 20px;
+}
+
+.classic_control_img {
+    margin-left: -5px;
+    width: 20px;
+}
+
+.rapid_3_control_img {
+    margin-left: -5px;
+    width: 20px; 
+}
+
+/* ховери для ссилок в таблицях */
+
+.first_td a {
+    color:#b1acac;
+}
+
+.first_td>a:hover,
+.into_aquamarine:hover{
+    color: #44bcc5;
+}
+
+.into_aquamarine {
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+}
+/* картинки на видимість в мережі */
+
+.connected {
+    width: 10px;
+    margin-right: 2px;
+    
+}
+
+.no_connect {
+    width: 10px;
+    margin-right: 2px;
+    
+}
+
+.name_champion {
+    margin-left: -5px;
+}
+
+.last_table_img_left img {
+    margin-left: -8px;
+}
+
+.text_right_board a{
+    color: #b1acac;
+}
+
+.text_right_board a:hover {
+    color: #44bcc5;
+}
+

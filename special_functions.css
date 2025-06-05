@@ -1,0 +1,93 @@
+/* властивості для основних контейнерів */
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 0px;
+    
+   
+    width: 25%;
+}
+
+.block>a {
+    display: block;
+    padding: 0.6em;
+    color: rgba(255, 255, 255, 0.712);
+    
+}
+
+.block:hover {
+    background-color: rgb(31, 99, 201);
+}
+
+.block:hover a {
+    color: black;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    max-width: 315px;
+}
+
+/* Розміри картинок */
+
+.special-img,
+.rubilovo-img,
+.gavno-img,
+.festival-img {
+    width: 20px;
+}
+
+/* останній елемент з випадаючим меню*/
+
+.block>a {
+    display: block;
+    padding: 0.2em;
+    color: rgba(190, 190, 190, 0.712);
+}
+
+
+
+.block:hover {
+    background-color: orange;
+}
+
+.block:hover>a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<!-- <div class="block_drop">
+
+<div class="image_1"><a href=""><img src="files/бізончик.png" alt="..."></a></div>
+<a href="#">Додатковий функціонал</a>
+
+
+<div class="function">
+    <div class="image_1"><a href=""><img src="files/бізончик.png" alt="..."></a></div>
+    <a href="#">Blitz rubilovo</a>
+</div>
+
+<div class="function"></div>
+    <div class="image_2"><a href=""><img src="files/бізончик.png" alt="..."></a></div>
+    <a href="#">Blitz rubilovo</a>
+</div>
+
+</div> --> */

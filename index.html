@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game_types.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="special_functions.css">
+    <link rel="stylesheet" href="rightbar.css">
+    <link rel="stylesheet" href="central_block_2.css">
+    <link rel="stylesheet" href="last_central_block.css">
+    <link rel="stylesheet" href="once_more_left.css">
+
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Верхня навігаційна панель -->
+
+    <div class="nav-panel">
+
+        <div class="main_navigation">  
+
+            <div class="site-name">
+                <a id="site-name_a" href="#">UrchikChess.orgia</a>
+            </div>
+
+
+            <div class="nav-var">
+
+                <a href="#">Грати</a>
+
+
+                <div class="drop">
+                    <a id="list1" href="#">Створити гру</a>
+                    <a id="list2" href="#">Турніри Арена</a>
+                    <a id="list3" href="#">Турніри за швейцарською системою</a>
+                    <a id="list4" href="#">Сеанс одночосної гри</a>
+                </div>
+
+            </div>
+
+
+            <div class="nav-var">
+
+                <a href="#">Задачі</a>
+
+
+                <div class="drop">
+                    <div><a id="list1" href="#">Задачі</a></div>
+                    <div><a id="list2" href="#">Теми задач</a></div>
+                    <div><a id="list3" href="#">Панелі задач</a></div>
+                    <div><a id="list4" href="#">Pazel Steak</a></div>
+                    <div><a id="list5" href="#">Pazel Storm</a></div>
+                    <div><a id="list6" href="#">Pazel Racer</a></div>
+                </div>
+
+
+            </div>
+
+            <div class="nav-var">
+
+                <a href="#">Навчання</a>
+
+
+                <div class="drop">
+                    <div><a id="list1" href="#">Шахові основи</a></div>
+                    <div><a id="list2" href="#">Практика</a></div>
+                    <div><a id="list3" href="#">Координати</a></div>
+                    <div><a id="list4" href="#">Дослідження</a></div>
+                    <div><a id="list5" href="#">Тренери</a></div>
+                </div>
+
+            </div>
+
+            <div class="nav-var">
+
+                <a href="#">Перегляд</a>
+
+
+                <div class="drop">
+                    <div><a id="list1" href="#">Трансляції</a></div>
+                    <div><a id="list2" href="#">TV</a></div>
+                    <div><a id="list3" href="#">Поточні партії</a></div>
+                    <div><a id="list4" href="#">Стрімери</a></div>
+                    <div><a id="list5" href="#">Відеотека</a></div>
+                </div>
+
+            </div>
+
+            <div class="nav-var">
+
+                <a id="radius_a" href="#">Спільнота</a>
+
+
+                <div id="radius" class="drop">
+                    <div><a id="list1" href="#">Гравці</a></div>
+                    <div><a id="list2" href="#">Друзі</a></div>
+                    <div><a id="list3" href="#">Команда</a></div>
+                    <div><a id="list4" href="#">Форум</a></div>
+                    <div><a id="list5" href="#">Блог</a></div>
+                </div>
+
+            </div>
+
+
+            <div class="nav-var">
+
+                <a href="#">Інструменти</a>
+
+
+                <div class="drop">
+                    <div><a id="list1" href="#">Аналіз</a></div>
+                    <div><a id="list2" href="#">Дебюти</a></div>
+                    <div><a id="list3" href="#">Редактор дошки</a></div>
+                    <div><a id="list4" href="#">Імпортувати гру</a></div>
+                    <div><a id="list5" href="#">Розширений пошук</a></div>
+                </div>
+
+            </div>
+
+
+
+            <div class="last-var">
+                <a href="#">Не бути скупим</a>
+            </div>
+
+        </div>
+
+        <!-- пошук, увійти і налаштування -->
+
+        <div class="search_reg_tools">
+
+            <div class="search-container">
+                
+                <button class="search-btn">
+                    <img class="lupa_img" src="files/лупа.png" alt="">
+                </button>
+                <input type="text" class="search-input" placeholder="Пошук...">
+
+            </div>
+
+            <div class="enter_or_registration">
+                <a href="#">УВІЙТИ</a>
+            </div>
+
+            <div class="settings">
+
+              <a href=""><img class="settings_img" src="files/налаштування.png" alt=""></a>
+
+              <div class="settings_variables">
+                <a class="settings_var" href="">Мова <img class="strylka_right_settings" src="files/стрілка вправо.png" alt=""></a>
+                <a class="settings_var" href="">Звук <img class="strylka_right_settings" src="files/стрілка вправо.png" alt=""></a>
+                <a class="settings_var" href="">Фон <img class="strylka_right_settings" src="files/стрілка вправо.png" alt=""></a>
+                <a class="settings_var" href="">Дошка <img class="strylka_right_settings" src="files/стрілка вправо.png" alt=""></a>
+                <a class="settings_var" href="">Набір фігур <img class="strylka_right_settings" src="files/стрілка вправо.png" alt=""></a>
+                <a class="settings_var" href="">
+                    <div>
+                        Ping 65ms <br> 
+                        Server 1ms
+                    </div>
+                    <img class="signal_img" src="files/рівень сигналу.png" alt="">
+                </a>
+              </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Основний вміст сайту -->
+
+    <div class="main-content">
+
+        <!-- Лівий сектор -->
+
+        <div class="left-bar">
+
+            <div class="some-text-under-leftbar">
+                Urchikchess є безкоштовним <a href="#">(без найобу)</a> шаховим сервером без 
+                реклами (окрім одеколону) та з піздатим кодом. <a href="#">Про Urchikchess...</a>
+            </div>
+
+
+            <div class="once-more-left">
+
+                <a class="one_of_arena" href="#">
+                  <div><img class="shield_img" src="files/icons8-щит-50 (1).png" alt=""></div>
+                  <div class="opys">
+                    <div class="font-small">HyperBitch Arena </div>
+                    <div class="font-smaller">Buttle for HyperBullet Shield</div>
+                    <div class="font-smaller">140 гравців • за 2 години</div>
+                  </div>
+                </a>
+                <a class="one_of_arena" href="#">
+                  <div><img class="fire_img" src="files/icons8-огонь-64.png" alt=""></div>
+                  <div class="opys">
+                    <div class="font-small">King's Pussy Declined Бліц Арена</div>
+                    <div class="font-smaller">112 гравців • Грається просто зараз</div>
+                  </div>
+                </a>
+                <a class="one_of_arena" href="#">
+                  <div><img class="rubik_img" src="files/icons8-rubik-64.png" alt=""></div>
+                  <div class="opys">
+                    <div class="font-small">Щогодинна Hard Penis Арена</div>
+                    <div class="font-smaller">22 гравці • Грається просто зараз</div>
+                  </div>
+                </a>
+                <a class="one_of_arena" href="#">
+                  <div><img class="fire_img" src="files/icons8-огонь-64.png"></div>
+                  <div class="opys">
+                    <div class="font-small">Щогодинна Asshole Арена</div>
+                    <div class="font-smaller">22 гравці • Грається просто зараз</div>
+                  </div>
+                </a>
+            
+              </div>
+
+            <div class="block">
+                <a href="#"><img class="festival-img" src="files/festival.png" alt="..."></a>
+                <a href="#">Urchik Festival</a>
+            </div>
+            <div class="block">
+                <a href="#"><img class="gavno-img" src="files/3508417.png" alt="..."></a>
+                <a class="gavno" href="#">Fighting for Shit</a>
+            </div>
+            <div class="block">
+                <a href=""><img class="rubilovo-img" src="files/меч.png" alt="..."></a>
+                <a class="rubilovo" href="#">Blitz to the Death</a>
+            </div>
+
+            <div class="block">
+
+                <a href=""><img class="special-img" src="files/special.png" alt="..."></a>
+                <a class="color-black" href="#">Super Functions</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Центральна частина -->
+
+
+
+
+        <div class="main-container">
+
+
+
+            <a href="#">
+                <div class="kvadrat green">
+                    <div>1+0</div>
+                    <div>Всунув-висунув</div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kvadrat green">
+                    <div>2+1</div>
+                    <div>Гіпертонія</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat green">
+                    <div>3+0</div>
+                    <div>Не смертельно</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat orange">
+                    <div>3+2</div>
+                    <div>Геморой</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat orange">
+                    <div>5+0</div>
+                    <div>Не радив би</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat red">
+                    <div>5+3</div>
+                    <div>Чітерський контроль 1.0</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat red">
+                    <div>10+0</div>
+                    <div>2 із 4 чітер</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat red">
+                    <div>10+5</div>
+                    <div>Зайшов,щоб програти</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat red">
+                    <div>15+10</div>
+                    <div>Шанс виграти 0.0002%</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat red">
+                    <div>30+0</div>
+                    <div>Для чемпіонів світу</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat red">
+                    <div>30+20</div>
+                    <div>Пропор тобі в зуби</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="kvadrat grey">
+                    <div>Своя гра</div>
+
+                </div>
+            </a>
+
+
+        </div>
+
+
+
+
+
+        <!-- Правий сектор, кнопки  -->
+
+        <div class="right-bar">
+
+            
+
+            <div>
+                <button class="right_btn" type="button">Створити пробеми</button>
+            </div>
+            <div>
+                <button class="right_btn"  type="button">Створити пробеми іншим</button>
+            </div>
+            <div>
+                <button class="right_btn"  type="button">Грати зі Скайнет</button>
+            </div>
+
+        
+
+        </div>
+
+    </div>
+
+    <div class="main-admin-statement">
+
+        <!-- ліва дошка -->
+
+        <div class="chess_board">
+
+            <div>
+                <div class="text_left"><a href="#">Чорним пизда => (дивитися чому)</a></div>
+                <a href="#"><img class="radius-img" src="files/Чорним пизда.webp" alt=""></a>
+                <div class="text_left"><a href="#">Допетрати самому (самостійний аналіз)</a></div>
+            </div>
+
+        </div>
+
+        <!-- центральний контент -->
+        <div class="central_container">
+
+            <div class="element1">
+
+                <a id="ne_suchka" href="#">
+                    <div>
+                        <img class="vysota" src="files/Hans_Niemann_in_2024_(cropped)88888.jpg" alt="">
+                    </div>
+                    <div class="padding-text">
+                        Ознаки чітера. Читати обов'язково
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="element1">
+
+                <a id="ne_suchka" href="#">
+                    <div>
+                        <img class="vysota" src="files/магнусик.jpg" alt="">
+                    </div>
+                    <div class="padding-text">
+                        4 кроки , щоб прибити новачка
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="element1">
+
+                <a id="ne_suchka" href="#">
+                    <div>
+                        <img class="vysota"src="files/придурки_4.webp"alt="">
+                    </div>
+
+                    <div class="padding-text" >
+                        Стратегійне і тактигійне мислення. Вчимося грати і писати слова без помилок придурки
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="element2">
+
+                <a id="suchka" href="#">
+                    <img class="rabstvo" src="files/стати рабом сайту.png" alt="">
+                    <div class="discription">
+                        <div class="large">Переписати хату</div>
+                        <div>Cтати Рабом Urchik-Chess</div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="element2">
+
+                <a id="suchka" href="#">
+                    <img class="Urchik_Swag" src="files/Urchik Swag.png" alt="">
+                    <div class="discription">
+                        <div class="large">Urchik Swag Store</div>
+                        <div>Грайте в шахи ситими</div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+        <!-- Права дошка -->
+
+        <div class="chess_board">
+
+            <div>
+                <div class="text_right"><a href="#">Задача дня, а через рік - задача року</a></div>
+                <a href="#"><img class="radius-img" src="files/Задача для розумних.png" alt=""></a>
+                <div class="text_right"><a href="#">Я лінива задниця (дивитися рішення)</a></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+<!--======================================================================  -->
+
+<div class="last-central-block">
+
+        <div class="left-block_main">
+
+            <div class="left-block">
+
+
+                
+
+                    <a href="#">
+                        <img class="book_img" src="files/книжечка.png" alt="">
+                        <time datetime="">2 години тому</time>
+                    </a>
+
+                    <p>
+                        Ну що ж сьогодні відбувся ще один чітерський турнір. Всі казали, що грали чесно і звичайно ми
+                        всі їм повірили. Головне, що ніхто не бачив.
+                        А якщо цього ніхто не бачив, то це і не рахується, навіть якщо всі ходи були зроблені по першій
+                        лінії. Хлопчику по імені Pap-G ми знаємо,
+                        що ви ще той гниленький персонаж. Ми вже вислали по вас людей і ми припинемо це лайно вже дуже скоро.
+                        Обняли і побажали успіхів всім нормальним
+                        чуваках і чувіхам, ми вас любимо!
+                    </p>
+
+                    <a href="#">
+                        <img class="celebration_img" src="files/свято.png" alt="">
+                        <time datetime="">2 години тому</time>
+                    </a>
+
+                    <p>
+                        Магнус Карлсен ні разу не помилився і зробив всі ходи правильно на турнірі, який відбувся в
+                        Північній Кореї.
+                    </p>
+
+                    <a href="#">
+                        <img class="hunner_img" src="files/молоток.png" alt="">
+                        <time datetime="">22 години тому</time>
+                    </a>
+
+
+                    <p>
+                        Василь і Дмитро із міста Косів дуже хочуть рейтинг в 1000 пунктів. Ми спеціально не даємо їм
+                        грати в турнірах, щоб вони могли реалізувати
+                        цю ціль.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/шолом.png" alt="">
+                        <time datetime="">2 дні</time>
+                    </a>
+
+                    <p>
+                        Ми вітаємо чемпіона району Миколку з Миргорода, який не одноразово захищав свій титул від
+                        місцевих.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/джокер.png" alt="">
+                        <time datetime="">5 днів</time>
+                    </a>
+
+                    <p>
+                        "Підтягування на турніку і віджимання не допомогли" - виправдовувався гросмейстер Ediz_Gurel,
+                        після відбування терміну в колонії строго режиму.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/аутизм.png" alt="">
+                        <time datetime="">1 тиждень тому</time>
+                    </a>
+
+
+                    <p>
+                        Цей рецепт допоможе вам довше залишатися у формі і вигравати в шахи. Для цього потрібно всього кілька огірків не
+                        відірваних від батви. Переходіть по посиланню, щоб дізнатися більше.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/пікачц.png" alt="">
+                        <time datetime="">1 тиждень тому</time>
+                    </a>
+
+                    <p>
+                        "Думи мої дупи" - скандальна стаття про Ханса Німана, яка вийшла місяць тому продовжує вражати
+                        читачів своїми деталями. Для тих, хто живе
+                        в ліфті: Ханса Німана вже неодноразово підозрювали у використанні анальних іграшок для
+                        реалізації своїх і без того темних планів.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/фруді.png" alt="">
+                        <time datetime="">1 тиждень тому</time>
+                    </a>
+
+
+                    <p>Шахмати - це війна, а на війні всі методи хороші. Це слова дибіла, який відзняв відео, як чітерити.
+                        Звичайно, для всіх нормальних і адекватних людей це
+                        звучить дико. Для прибічників такої ідеології ми приготували ділдо діаметром в кілька
+                        сантиметрів. Ми всіма руками за правильне виховання, тому якщо
+                        ви хочете, щоб ми продовжували робити наші методи все більш ефективними, ви можете підтримати
+                        наш сайт копійкою тут.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/утилізація.png" alt="">
+                        <time datetime="">2 тижні тому</time>
+                    </a>
+
+
+                    <p>
+                        Ми дякуємо всім нашим працівникам, які сумлінно виконують свою роботу по бану чітерів.
+                        Нагадуємо, що з нами такі приколи не проходять. Будь-який
+                        лівий софт буде одразу відскановано нашою системою. Ми також завжди чесні з нашими
+                        користувачами і одразу вказуємо на ризики. Хочете перемагати без
+                        проблем не заходьте на червоний контроль. Популяція придурків із маленькими мізками росте. Будьте
+                        обачними починаючи з контролю 5+0. Успіхів і перемоги!
+                    </p>
+
+                    <a href="#">
+                        <img src="files/корзинка.png" alt="">
+                        <time datetime="">2 тижні тому</time>
+                    </a>
+
+                    <p>В нашому магазині ви можете знайти не тільки хавчик. Ми також запустили в продаж наш новий
+                        одеколон "Запах чемпіона". Спробуйте, він реально пахне так, ніби
+                        виграв когось в шахи.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/зірочка.png" alt="">
+                        <time datetime="">2 тижні тому</time>
+                    </a>
+
+
+                    <p>
+                        На сайті ми стараємось не викладувати багато реклами. Але жити за щось потрібно і трішки та
+                        мусимо. Тому щераз нагадуємо про одеколон.
+                    </p>
+
+                    <a href="#">
+                        <img src="files/черепок.png" alt="">
+                        <time datetime="">2 тижні тому</time>
+                    </a>
+
+
+                    <p>
+                        Представляємо вашій увазі нашу нову розробку "Urchik_Shadow-Ban". Ця технологія дає унікальну
+                        можливість чітерам грати з такими ж вилупками, як і вони.
+                        В момент бану, воно і не підозрює, як пройшло через фільтр. Так наш юний
+                        герой опиняється в колі таких же йобликів, як і він.
+                        Для такого аналу і шариків не потрібно, чи не так? Ми навіть провели дослід, виставивши камеру
+                        для спостереження за кімнатою чітера. В ході експерименту
+                        був виявлений сильний викид гормонів обурення і трохи адреналіну, але не всюди, тільки в
+                        задниці. Ми від щирого серця бажаємо вам гарного дня і переможних
+                        партій!
+                    </p>
+                
+
+            </div>
+
+                    <!---------------------------- футер ----------------------------->
+
+            <footer class="footer">
+                <div class="footer-row">
+                    <a href="#">Про Lichess</a>
+                    <a href="#">ЧаПи</a>
+                    <a href="#">Контакти</a>
+                    <a href="#">Мобільний застосунок</a>
+                    <a href="#">Умови користування</a>
+                    <a href="#">Конфіденційність</a>
+                </div>
+                <div class="footer-row foot_top">
+                    <a href="#">Вихідний код</a>
+                    <a href="#">Ads</a>
+                </div>
+                <div class="footer-row social-links">
+                    <a href="#">Mastodon</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Discord</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Twitch</a>
+                </div>
+            </footer>
+
+
+
+
+        </div>
+
+        <div class="right-block">
+
+            <div class="po-100">
+                <div class="cpase">
+
+                    <a class="sylka" href="#">
+                        <img class="kubok_img" src="files/кубок_турнір.png" alt="">
+                        <span>Відкриті Турніри</span></a>
+                        <a class="sylka_right into_aquamarine" href="#">Більше</a>
+
+                </div>
+                <div class="scroll-content">
+
+                    <table class="my-table">
+
+                        <tbody>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/жабка_турнір.png" alt="">"Господи закінчи це" Arena</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>587</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/козлик_турнір.png" alt="">East Coast SuperBlitz</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>58</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/козлик_турнір.png" alt="">West Coast Бліц</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>1587</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/олень_турнір.png" alt="">Sex Defense Швидкі</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>387</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/position_96.png" alt="">Щогодинний Position96</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>24</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/колібрі_турнір.png" alt="">≤2000 Палаюча задниця Куля</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>87</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/слимак _турнір.png" alt="">Щогодинний Atomic-Ass</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>456</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/колібрі_турнір.png" alt="">≤1700 Куля</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>1222</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/олень_турнір.png" alt="">Щогодинний Three-Dicks</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>5656</span></td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><a href=""><img class="tournament_img" src="files/жабка_турнір.png" alt="">Holly Jesus Rapid Battle</a></td>
+                                <td class="second_td">За 2 хвилини</td>
+                                <td class="third_td">1h</td>
+                                <td class="fourty_td"><img class="coming_people" src="files/кількість учасників.png" alt=""><span>5431</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="po-50">
+
+                <div class="cpase_nesylka">
+                    <span><img class="lider_img" src="files/дошка лідерів.png" alt="">Дошка лідерів</span>
+                    <a class="into_aquamarine" href="#">Більше</a>
+                </div>
+
+
+                <div class="pid_scroll_nesylka">
+                    <table class="my-table">
+
+                        <tbody>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="text_name" href="#">FM Ragehunterdd</a></td>
+                                <td class="third_td"><img class="classic_control" src="files/icons8-hummingbird-50.png"alt=""><img class="bullet_img" src="files/bullet_control.png"alt=""><span>3301</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вниз _2.png"alt="">32</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач чоловік.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">FM Ragehunter</a></td>
+                                <td class="third_td"><img class="classic_control_img" src="files/classic_control.png" alt=""><span>2325</span></td>
+                                <td class="fourty_td strilka_vh"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">83</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач чоловік.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">GrandaddyViolet</a></td>
+                                <td class="third_td"><img class="classic_control_img" src="files/classic_control.png" alt=""><span>4543</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">79</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="text_name" href="#">InfinityAaroZ</a></td>
+                                <td class="third_td"><img class="rapid_2_control_img" src="files/rapid_2_control.png" alt=""><span>8456</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вниз _2.png" alt="">85</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">Nedo4beb52ra</a></td>
+                                <td class="third_td"><img class="bullet_img" src="files/bullet_control.png" alt=""><span>3037</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">91</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач чоловік.png" alt=""><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="text_name" href="#">RapidShooter</a></td>
+                                <td class="third_td"><img class="rapid_3_control_img" src="files/rapid_3_control.png" alt=""><span>2345</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">4</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">Zhigalko_Sergei</a></td>
+                                <td class="third_td"><img class="rapid_3_control_img" src="files/rapid_3_control.png" alt=""><span>3037</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вниз _2.png" alt="">46</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">igormezentsev</a></td>
+                                <td class="third_td"><img class="rapid_2_control_img" src="files/rapid_2_control.png" alt=""><span>3237</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">90</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач чоловік.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">Pap-G</a></td>
+                                <td class="third_td"><img class="bullet_img" src="files/bullet_control.png" alt=""><span>2137</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вниз _2.png" alt="">32</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="text_name" href="#">Ediz_Gurel</a></td>
+                                <td class="third_td"><img class="bullet_img" src="files/bullet_control.png" alt=""><span>3127</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">64</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач чоловік.png" alt=""><img class="connected" src="files/є в мережі.png" alt=""><a class="text_name" href="#">FM Ragehunter</a></td>
+                                <td class="third_td"><img class="rapid_2_control_img" src="files/rapid_2_control.png" alt=""><span>2037</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вниз _2.png" alt="">59</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="man_or_woman_icon" src="files/користувач жінка.png" alt=""><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="text_name" href="#">FM Ragehunter</a></td>
+                                <td class="third_td"><img class="bullet_img" src="files/bullet_control.png" alt=""><span>1037</span></td>
+                                <td class="fourty_td"><img class="strilka_img" src="files/стрілочка вгору_2.png" alt="">12</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                    
+                </div>
+
+            </div>
+
+            <div class="po-50">
+
+                <div class="cpase_nesylka">
+                    <span><img class="kubok_img" src="files/кубок_турнір.png" alt="">Переможці турніру</span>
+                    <a class="into_aquamarine" href="#">Більше</a>
+                </div>
+
+                <div class="pid_scroll_nesylka">
+                    <table class="my-table last_table_img_left">
+
+                        <tbody>
+                            <tr>
+                                <td class="first_td"><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="name_champion" href=""><span>GM Craze</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Yearly H</a></td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="connected" src="files/є в мережі.png" alt=""><a class="name_champion" href=""><span>GM HomayooonT</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Yearly Bullet</a></td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="connected" src="files/є в мережі.png" alt=""><a class="name_champion" href=""><span>IM SIDDHARTH_CHESS</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Yearly S</a></td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="connected" src="files/є в мережі.png" alt=""><a class="name_champion" href=""><span>IM TenzaSangetsu</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Monthly Blitz</a></td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="name_champion" href=""><span>GM fmshawnrl123</span></a></td>
+                                <td class="second_td text_right_board"><a href="">MonthlyRapid</a></td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="name_champion" href=""><span>GM CEMILGMCHESS</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Elite Bullet</a></td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="connected" src="files/є в мережі.png" alt=""><a class="name_champion" href=""><span>CM AnIndianChessplayer</span></a></td>
+                                <td class="second_td text_right_board"><a href="">2024 Summer</a> </td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="name_champion" href=""><span>Boburjon007</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Yearly</a> </td>
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="connected" src="files/є в мережі.png" alt=""><a class="name_champion" href=""><span>NM Mr_Penings</span></a></td>
+                                <td class="second_td text_right_board"> <a href="">Daily</a></td>
+                                
+
+                            </tr>
+                            <tr>
+                                <td class="first_td"><img class="no_connect" src="files/немає в мережі.png" alt=""><a class="name_champion" href=""><span>IM ChessCoach-UEG</span></a></td>
+                                <td class="second_td text_right_board"><a href="">Daily</a></td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

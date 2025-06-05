@@ -1,0 +1,62 @@
+
+  /* текст зверху */
+
+  .some-text-under-leftbar {
+    max-width: 315px;
+    margin-bottom: 20px;
+    font-size:small;
+    color: #b1acac;
+}
+
+.some-text-under-leftbar>a {
+    color: #44bcc5;
+}
+
+
+/* стилі блоку */
+
+  .once-more-left {
+    max-width: 315px;
+    max-height: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .one_of_arena {
+    display: flex;
+    padding: 0.5em;
+    background-color: #505050ad;
+    color: #b1acac;
+    align-items: center;
+  }
+  
+  .one_of_arena:hover {
+    background-color: #726a6a9c;
+    color: #44bcc5;
+    transition: 0.2s;
+  }
+  
+  .font-small {
+    font-size:small;
+  }
+  
+  .font-smaller {
+    font-size: smaller;
+  }
+  
+  .fire_img{
+    width: 40px;
+    margin-right: 8px;
+  }
+  .rubik_img{
+    width: 35px;
+    margin-left: 2px;
+    margin-right: 11px;
+  }
+  .shield_img {
+    width: 30px;
+    margin-left: 3px;
+    margin-right: 14px;
+  }
+  

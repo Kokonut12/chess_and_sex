@@ -1,0 +1,106 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+    font-family: Roboto, serif;
+    background-color: rgb(37, 33, 33);
+    
+}
+
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+.main-container {
+    display: flex;
+    width: 669px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    /* margin-left: 105px;
+    padding-right: 20px; */
+    /* Все по картинці на фон */
+    background-image: url('files/Chess_qlt45.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+/* .central-content {
+    width: 50%;
+} */
+
+ .kvadrat {
+    display: flex;
+    height: 120px;
+    /* width: calc(33% - 10px); */
+    /* background-color: #797979; */
+    /* margin-bottom: 15px; */
+    border-radius: 6px; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* огорнути в посилання kvadrat  */
+
+.main-container>a{
+    display: block;
+    background-color: #504e4ed3;
+    height: 120px;
+    width: calc(33% - 10px);
+    margin-bottom: 15px;  /*добавив відступи внизу, бо сплющило всі блоки  */
+    border-radius: 6px;
+}
+
+.kvadrat :first-child {
+    font-size: 27px;
+}
+
+.kvadrat :last-child {
+    font-size: 18px;
+}
+
+.kvadrat > div {
+    color:rgba(255, 255, 255, 0.774);
+    
+    
+}
+
+
+/* hover для kvadrat */
+
+.kvadrat:hover {
+    background-color: rgba(172, 164, 158, 0.507);
+}
+
+/* background-color: rgba(236, 219, 206, 0.507); */
+
+
+/* Тіні */
+
+.green:hover {
+    box-shadow: 0px 1px 15px #08e213ee;
+    transition: box-shadow 0.2s;
+}
+.orange:hover {
+    box-shadow: 0px 1px 15px orange;
+    transition: box-shadow 0.2s;
+}
+.red:hover {
+    box-shadow: 0px 1px 15px rgb(255, 0, 0);
+    transition: box-shadow 0.2s;
+}
+.grey:hover {
+    box-shadow: 0px 1px 15px rgb(77, 76, 76);
+    transition: box-shadow 0.2s;
+}
+
+

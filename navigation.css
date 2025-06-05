@@ -1,0 +1,257 @@
+/* назва сайту */
+
+.site-name {
+    font-size: xx-large;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+#site-name_a {
+    background: linear-gradient(90deg, rgba(123,123,159,1) 0%, rgba(168,168,200,1) 39%, rgba(211,232,232,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#site-name_a:hover {
+    background: linear-gradient(90deg, rgb(47, 47, 185) 0%, rgb(47, 47, 185) 35%, #368999 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* панель */
+
+.nav-panel {
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    margin-top: -15px;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.main_navigation {
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    margin-top: -15px;
+    align-items: center;
+    height: 70px;
+    margin-top: 5px;
+    /* justify-content: space-between; */
+}
+
+.main_navigation a {
+    color: #f7f1f1;
+}
+
+/* випадаючі меню */
+/* nav-var */
+.nav-var:hover a{
+    color: aliceblue;
+    background-color: #949494ce;
+}
+
+.nav-var>a {
+    display: block;
+    padding: 1em;
+    border: solid 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.nav-var:hover>a {
+    background-color: #0dd828;
+    border-color: #0dd828;
+}
+
+/* робота з drop */
+
+.drop {
+    display: none;
+
+}
+
+.drop a {
+    display: block;
+    padding: 0.5em;
+    
+}
+
+/* ховери для списків */
+
+.drop a:hover#list1, 
+.drop a:hover#list2, 
+.drop a:hover#list3, 
+.drop a:hover#list4, 
+.drop a:hover#list5, 
+.drop a:hover#list6 {
+    background-color: rgb(31, 99, 201);
+}
+
+.nav-var:hover .drop {
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    border: solid 1px;
+    border-color: #949494;;
+    border-radius: 0px 3px 3px 3px;
+    
+    
+}
+/* поправка на округлення (вкладка "спільната") */
+#radius {
+    border-radius: 0px 0px 3px 3px;
+}
+#radius_a {
+    border-radius: 3px 3px 3px 0px;
+}
+
+/* Останній елемент панелі*/
+
+.last-var {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 4px;
+    /* margin-right: 100px; */
+}
+
+.last-var a {
+    color:rgb(218, 170, 14);
+    
+}
+
+.last-var:hover a{
+    color: rgba(2, 192, 250, 0.979);
+}
+
+/* <!-- пошук, увійти і налаштування --> */
+
+.search_reg_tools {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 300px ;
+}
+
+.lupa_img {
+    width: 20px;
+  }
+  
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* Кнопка залишається праворуч */
+    align-items: center;
+    margin-right: -10px;
+    /* Початкова ширина контейнера */
+    /* width: 250px;  */
+    transition: width 0.3s ease;
+    overflow: hidden; /* Сховати інпут до розширення */
+}
+  
+.search-input {
+    width: 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #949494;
+
+    /* border-radius: 25px; */
+    background-color: #ff010100;
+    transition: width 0.3s ease;
+    opacity: 0;
+    margin-right: 10px; /* Відступ між інпутом і кнопкою */
+    /* Текст вводиться справа наліво */
+    /* direction: rtl;  */
+     /* Вирівнювання тексту з правого краю */
+    /* text-align: right; */
+}
+  
+.search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+  
+.search-container:hover,
+.search-container:focus-within {
+    width: 250px; /* Загальна ширина контейнера при активації */
+}
+  
+.search-container:hover .search-input,
+.search-container:focus-within .search-input {
+    width: 100px; /* Ширина інпуту при розширенні */
+    opacity: 1;
+}
+
+/* обнулити відстані для всього контейнера settings */
+
+.settings {
+    margin-right: -8px;
+}
+
+/* увійти */
+
+.enter_or_registration{
+    margin-right: 20px;
+}
+
+.enter_or_registration>a {
+    color: rgb(197, 209, 209);
+}
+
+.enter_or_registration>a:hover {
+    color: #44bcc5;
+}
+
+/* випадаюче меню для налаштувань */
+
+.settings_variables {
+    display: none;
+    
+}
+
+.settings_variables a {
+    display: flex;
+    padding: 0.8em;
+    background-color:#333232fa;
+    color: #f7f1f1;
+    justify-content: space-between;
+}
+
+.settings_variables a:hover {
+    background-color:#706d6dd3;
+    
+}
+
+.settings_var{
+    width: 200px;
+}
+
+.strylka_right_settings{
+    width: 15px;
+}
+
+.settings:hover .settings_variables{
+    display: block;
+    position: absolute;
+    right: 0px;
+    color: white;
+}
+
+.settings:hover {
+    background-color:#333232fa;
+}
+
+.settings_img {
+    padding: 15px;
+    
+}
+
+.settings_variables {
+    overflow: hidden;
+    border-radius: 5px 0px 5px 5px;
+}
+
+.signal_img{
+    width: 35px;
+}

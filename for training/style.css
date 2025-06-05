@@ -1,0 +1,49 @@
+.search-container {
+  display: flex;
+  justify-content: flex-end; /* Кнопка залишається праворуч */
+  align-items: center;
+  width: 240px; /* Початкова ширина контейнера */
+  transition: width 0.3s ease;
+  overflow: hidden; /* Сховати інпут до розширення */
+}
+
+.search-input {
+  width: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  transition: width 0.3s ease;
+  opacity: 0;
+  margin-right: 10px; /* Відступ між інпутом і кнопкою */
+  /* Текст вводиться справа наліво */
+  /* direction: rtl;  */
+   /* Вирівнювання тексту з правого краю */
+  /* text-align: right; */
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.search-container:hover,
+.search-container:focus-within {
+  width: 240px; /* Загальна ширина контейнера при активації */
+}
+
+.search-container:hover .search-input,
+.search-container:focus-within .search-input {
+  width: 200px; /* Ширина інпуту при розширенні */
+  opacity: 1;
+}
+
+
+
+
+
+
+  
